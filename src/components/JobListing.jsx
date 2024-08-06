@@ -1,11 +1,12 @@
 import { useState } from "react";
-
+import { FaMapMarker } from 'react-icons/fa'
 const JobListing = ({ job }) => {
   const [showFullDescription, setShowFullDescription] = useState(false);
 
   let description = job.description;
+
   if (!showFullDescription) {
-    description = description.substring(0, 90) + "...";
+    description = description.substring(0, 90) + " ...";
   }
 
   return (
@@ -32,7 +33,7 @@ const JobListing = ({ job }) => {
 
         <div className="flex flex-col lg:flex-row justify-between mb-4">
           <div className="text-orange-700 mb-3">
-            <i className="fa-solid fa-location-dot text-lg"></i>
+            <FaMapMarker className="inline mr-1 mb-1 text-lg" />
             {job.location}
           </div>
           <a
