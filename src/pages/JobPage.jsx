@@ -1,7 +1,9 @@
+import JobListings from "../components/jobListings";
+
 const JobPage = () => {
   return (
     <>
-      <h1>Job Page</h1>
+      <JobListings />
     </>
   );
 };
