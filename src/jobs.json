@@ -83,20 +83,6 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
-    },
-    {
-      "id": "037a",
-      "title": "Project Manager",
-      "type": "Part-Time",
-      "location": "jeddah",
-      "description": "Prodakbfl",
-      "salary": "$50K - 60K",
-      "company": {
-        "name": "Dragon Software",
-        "description": "this is Asosd ",
-        "contactEmail": "h.ibraheem14@outlook.com",
-        "contactPhone": "0502189035"
-      }
     }
   ]
 }
